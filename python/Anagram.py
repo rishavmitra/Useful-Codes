@@ -1,4 +1,4 @@
-```Check if two strings are anagram```
+'''Check if two strings are anagram'''
 
 from collections import defaultdict
 
