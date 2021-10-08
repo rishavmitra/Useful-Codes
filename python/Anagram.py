@@ -24,4 +24,15 @@ if(dict(Dict1)==dict(Dict2)):
 else:
   print('No')
 
+'''Easy Way'''
 
+str1 = input()
+str1 = sorted(str1.lower())
+
+str2 = input()
+str2 = sorted(str2.lower())
+
+if(str1==str2):
+  print("Anagram")
+else:
+  print("Nope!!")
